@@ -1,19 +1,5 @@
 <!DOCTYPE html>
-<style>
-    h1{
-        color:red;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    }
-    h2{
-        font-size:20px;
-    }
-    #dsGrandCanyon{
-        width:20%;
-    }
-    #linkedInLogo{
-        width:10%;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="index.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,15 +8,26 @@
 </head>
 <body>
     <h1>Daniel Sachs</h1>
-    <img id="dsGrandCanyon" src=".\images\dsGrandCanyon.jpg" alt="picture of Daniel Sachs">
-    <h2>First time at Grand Canyon</h2>
-    <ul>
-        <li>1993 - born in Cincinnati</li>
-        <li>2012 - graduated from Wyoming High School</li>
-        <li>2012 - started attending University of Cincinnati</li>
-        <li>2015 - accepted into the Electronic Media program of CCM</li>
-        <li>2017 - graduated with a Bachelor's of Fine Arts in Electronic Media</li>
-    </ul>
-    <a href="https://www.linkedin.com/in/daniel-sachs-87662512b" target="_blank"><img id="linkedInLogo"src=".\images\1200px-LinkedIn_Logo.svg.png"></a>
+    <div id="navigation" class="row">
+        <div class="column"><h2><a href="./education.html">Education</a></h2></div>
+        <div class="column"><h2><a href="./jobs.html">Jobs</a></h2></div>
+    </div>    
+    <div class="row">
+        <h2></h2>
+        <div class="column"><img id="dsGrandCanyon" src=".\images\dsGrandCanyon.jpg" alt="picture of Daniel Sachs">
+        <h4>First time at the Grand Canyon</h4></div>
+        <div class="column">
+            <h3>
+                <ul>
+                    <li>1993 - born in Cincinnati</li>
+                    <li>2012 - graduated from Wyoming High School</li>
+                    <li>2012 - started attending University of Cincinnati</li>
+                    <li>2015 - accepted into the Electronic Media program of CCM</li>
+                    <li>2017 - graduated with a Bachelor's of Fine Arts in Electronic Media</li>
+                </ul>
+            </h3>
+        </div>
+        <div class="row"></div>
+        <a href="https://www.linkedin.com/in/daniel-sachs-87662512b" target="_blank"><img id="linkedInLogo"src=".\images\1200px-LinkedIn_Logo.svg.png"></a>   
 </body>
 </html>

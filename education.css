@@ -1,0 +1,57 @@
+h1{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-size:1.5rem;
+}
+
+img {
+    width:40vw;
+}
+
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom:28px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+#navigation {
+    text-align:center;
+    background-color:rgb(98, 221, 201);
+    box-shadow: 0 10px 5px rgba(98, 221, 201,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 1.0rem;
+}
+
+#navigation:after {
+    padding-bottom:0px;
+}
+
+#soteni {
+    background-color:silver;
+}
+
+#stc {
+    width:80%;
+}
+
+#jjs {
+    width:50%;
+}
+
+#linkedInLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
