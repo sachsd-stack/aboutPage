@@ -6,7 +6,13 @@ h2{
     font-size:1.5rem;
 }
 
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.1rem;
+}
+
 h4{
+    text-align:center;
     margin-left: auto;
     margin-right: auto;
     width:40vw;
@@ -16,36 +22,76 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:40vw;
+    width:90%;
 }
 
 a {
     color:#000;
     text-decoration:none;
 }
+
+.row {
+    margin:0 2% 0 2%;
+
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
     padding-bottom:28px;
 }
+
 .column {
     float: left;
-    width: 50%;
+    width: 48%;
 }
 
 #navigation {
     text-align:center;
-    background-color:rgb(141, 180, 141);
-    box-shadow: 0 10px 5px rgba(141, 180, 141,0.19), 0 3px 3px rgba(0,0,0,0.23);
-    border-radius: 1.0rem;
 }
 
 #navigation:after {
     padding-bottom:0px;
 }
 
+#education {
+    background-color:rgb(141, 180, 141);
+    box-shadow: 0 10px 5px rgba(141, 180, 141,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 1.0rem;
+    transition: 0.3s;
+    margin-right:2%;
+}
+
+#education:hover {
+    background-color:rgb(74, 145, 74);
+}
+
+#jobs {
+    background-color:rgb(141, 180, 141);
+    box-shadow: 0 10px 5px rgba(141, 180, 141,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 1.0rem;
+    transition: 0.3s;
+    margin-left:2%;
+}
+
+#jobs:hover {
+    background-color:rgb(74, 145, 74);
+}
+
+#linkedInBorder {
+    display:block;
+    margin:0 2%;
+    background-color:silver;
+    padding:1rem;
+    border-radius: 1.0rem;
+}
+
+#linkedInBorder:hover {
+    background-color:rgb(126, 126, 126);
+    transition:0.3s;
+}
+
 #linkedInLogo{
-    display: block;
     width:20%;
 }
