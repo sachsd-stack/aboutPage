@@ -15,26 +15,52 @@ a {
     text-decoration:none;
 }
 
+.row {
+    margin:0 2% 0 2%;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
     padding-bottom:28px;
 }
+
 .column {
     float: left;
-    width: 50%;
+    width: 48%;
 }
 
 #navigation {
     text-align:center;
-    background-color:rgb(212, 108, 108);
-    box-shadow: 0 10px 5px rgba(212, 108, 108,0.19), 0 3px 3px rgba(0,0,0,0.23);
-    border-radius:1.0rem;
 }
 
 #navigation:after {
     padding-bottom:0px;
+}
+
+#about {
+    background-color:rgb(212, 108, 108);
+    box-shadow: 0 10px 5px rgba(212, 108, 108,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 1.0rem;
+    transition: 0.3s;
+    margin-right:2%;
+}
+
+#about:hover {
+    background-color:rgb(180, 53, 53);
+}
+
+#education {
+    background-color:rgb(212, 108, 108);
+    box-shadow: 0 10px 5px rgba(212, 108, 108,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 1.0rem;
+    transition: 0.3s;
+    margin-left:2%;
+}
+
+#education:hover {
+    background-color:rgb(180, 53, 53);
 }
 
 #soteni {
@@ -63,4 +89,38 @@ a {
     margin-left: auto;
     margin-right: auto;
     width:20%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h3 {
+        font-size:0.75rem;
+    }    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size:1.0rem;
+    }    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h3 {
+        font-size:1.25rem;
+    }    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h3 {
+        font-size:1.75rem;
+    }    
+}
+
+@media only screen and (min-width: 1600px) {
+    h3 {
+        font-size:2.5rem;
+    } 
 }
