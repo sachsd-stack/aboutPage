@@ -6,8 +6,45 @@ h2{
     font-size:1.5rem;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h3 {
+        font-size:0.75rem;
+    }    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size:1.0rem;
+    }    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h3 {
+        font-size:1.25rem;
+    }    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h3 {
+        font-size:1.75rem;
+    }    
+}
+
+@media only screen and (min-width: 1600px) {
+    h3 {
+        font-size:2.5rem;
+    } 
+}
+
 img {
-    width:40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
 }
 
 a {
@@ -84,43 +121,19 @@ a {
     width:50%;
 }
 
+#linkedInBorder {
+    display:block;
+    margin:0 2%;
+    background-color:silver;
+    padding:1rem;
+    border-radius: 1.0rem;
+}
+
+#linkedInBorder:hover {
+    background-color:rgb(126, 126, 126);
+    transition:0.3s;
+}
+
 #linkedInLogo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width:20%;
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    h3 {
-        font-size:0.75rem;
-    }    
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    h3 {
-        font-size:1.0rem;
-    }    
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    h3 {
-        font-size:1.25rem;
-    }    
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    h3 {
-        font-size:1.75rem;
-    }    
-}
-
-@media only screen and (min-width: 1600px) {
-    h3 {
-        font-size:2.5rem;
-    } 
 }
